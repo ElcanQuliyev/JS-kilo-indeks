@@ -51,7 +51,7 @@ div.flex {
             }
         }
 
-        div.btn{
+        div#btn{
             text-align: center;
             padding: 8px;
             margin-top: 16px;
@@ -59,8 +59,13 @@ div.flex {
             cursor: pointer;
         }
 
-        div.btn:hover{
+        div#btn:hover{
             background-color: gray;
         }
     }
+}
+
+
+p.paragraph{
+    text-align: center;
 }
